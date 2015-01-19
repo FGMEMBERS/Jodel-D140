@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- MAGNETIC COMPASS -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/MagneticCompass/MagneticCompass.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.136 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.426 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m> -0.361 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL TEMPERATURE-->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/fuel-temp/fuel-temp.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.426 </y-m>
+      <z-m> -0.068 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AMPS -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/amps/amps.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.361 </y-m>
+      <z-m> -0.068 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.006 </x-m>
+      <y-m> -0.279 </y-m>
+      <z-m>  0.035 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.184 </y-m>
+      <z-m>  0.035 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- HDG -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/hdg/hdg.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.084 </y-m>
+      <z-m>  0.035 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.279 </y-m>
+      <z-m> -0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.184 </y-m>
+      <z-m> -0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KX165 -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/kx165/kx165.xml</path>
+    <offsets>
+      <x-m> -0.009 </x-m>
+      <y-m>  0.083 </y-m>
+      <z-m>  0.043 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KR87 -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/kr87-adf/kr87.xml</path>
+    <offsets>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.083 </y-m>
+      <z-m> 0.000 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KI227 -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/kr87-adf/ki227.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.084 </y-m>
+      <z-m> -0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KT70 -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/kt70/kt70.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.083 </y-m>
+      <z-m> -0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KT67A -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/KT76A/KT76A.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.083 </y-m>
+      <z-m> -0.088 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/engine/oil/oilp.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.246 </y-m>
+      <z-m> 0.028 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TACHIMETER -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/engine/tach/tach.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.246 </y-m>
+      <z-m> -0.064 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FLOW -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/engine/fflow/fflow.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.357 </y-m>
+      <z-m> 0.015 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MAN -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/engine/man/man.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m>  0.339 </y-m>
+      <z-m> -0.064 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MANGETOS -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/magneto/mags.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.286 </y-m>
+      <z-m> -0.172 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- SWITCHS -->
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/battery.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.114 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/alternator.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.137 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/instr-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.172 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/nav-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.205 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/strobe-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.231 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/landing-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.259 </y-m>
+      <z-m> -0.224 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Jodel-D140/Models/Interior/Panel/Instruments/switchs/taxi-lights.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.137 </y-m>
+      <z-m> -0.254 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>

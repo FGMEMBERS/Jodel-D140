@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>asi.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Jodel-D140/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <condition>
+      <property>controls/lighting/instrument-lights</property>
+      <property>/controls/electric/battery-switch</property>
+    </condition>
+    <emission>
+      <factor-prop>controls/lighting/luminosite-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+    <interpolation>
+      <entry><ind>   0.0 </ind><dep>   0 </dep></entry> <!--   0 km/h -->
+      <entry><ind>  26.9 </ind><dep>  25 </dep></entry> <!--  50 km/h -->
+      <entry><ind>  53.9 </ind><dep> 100 </dep></entry> <!-- 100 km/h -->
+      <entry><ind>  89.9 </ind><dep> 193 </dep></entry> <!-- 150 km/h -->
+      <entry><ind> 107.9 </ind><dep> 270 </dep></entry> <!-- 200 km/h -->
+      <entry><ind> 134.9 </ind><dep> 335 </dep></entry> <!-- 250 km/h -->
+      <entry><ind> 145.7 </ind><dep> 360 </dep></entry> <!-- 270 km/h -->
+    </interpolation>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
